@@ -273,6 +273,7 @@ section h1 {
 .dot {
   margin-top: 20px;
   display: flex;
+  padding-right: 1370px;
   gap: 10px;
 }
 .button {
