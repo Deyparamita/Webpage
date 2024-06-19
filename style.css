@@ -13,7 +13,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 250px;
+  padding: 200px;
   height: 100vh;
   box-sizing: border-box;
 }
@@ -32,7 +32,7 @@ main {
 }
 
 main h1 {
-  font-size: 54px;
+  font-size: 50px;
   font-weight: bold;
   color: #000000;
   text-transform: uppercase;
@@ -41,7 +41,7 @@ main h1 {
 
 .para {
   font-size: 18px;
-  line-height: 1.875;
+  line-height: 1.5;
   color: #000000;
   margin: 0 0 30px;
 }
@@ -165,7 +165,7 @@ main h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 55%;
+  max-width: 40%;
 }
 
 .main-right img {
@@ -175,7 +175,7 @@ main h1 {
 
 section {
   padding: 0 200px 200px 200px;
-  height: 800px;
+  height: 550px;
 }
 
 .section-left-right {
@@ -186,19 +186,19 @@ section {
 }
 .what-to {
   color: #ff3147;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   padding-left: 50px;
 }
 section h1 {
   padding: 0;
-  font-size: 60px;
+  font-size: 45px;
   text-transform: uppercase;
   width: 700px;
 }
 .section-left-right-p {
   size: 18px;
-  line-height: 30px;
+  line-height: 20px;
 }
 .image-slider-container {
   display: flex;
@@ -209,7 +209,7 @@ section h1 {
 }
 .image-slider {
   display: flex;
-  width: 1480px;
+  width: 1150px;
   overflow-x: scroll;
 }
 
@@ -221,6 +221,7 @@ section h1 {
   padding: 10px;
   flex: none;
 }
+
 .image-slider img {
   width: 100%;
 }
@@ -273,7 +274,6 @@ section h1 {
 .dot {
   margin-top: 20px;
   display: flex;
-  padding-right: 1370px;
   gap: 10px;
 }
 .button {
@@ -284,7 +284,7 @@ section h1 {
   cursor: pointer;
 }
 .choice {
-  padding: 200px;
+  padding: 50px;
 }
 .benefit {
   display: flex;
@@ -298,38 +298,38 @@ section h1 {
 .project {
   padding-left: 400px;
   padding-right: 400px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .foods {
-  max-width: 1200px;
+  max-width: 850px;
   display: flex;
-  gap: 60px;
+  gap: 20px;
   align-items: center;
 }
 .food-menu {
-  width: 250px;
+  width: 200px;
   height: 168px;
   padding: 10px;
   background-color: #f6f6f6;
 }
 
 img[src="./assests/image2.jpg"] {
-  width: 770px;
-  height: 567px;
+  width: 600px;
+  height: 570px;
   object-fit: cover;
 }
 img[src="./assests/image3.jpg"] {
-  width: 770px;
-  height: 567px;
+  width: 600px;
+  height: 570px;
   object-fit: cover;
 }
 
 .growth {
-  padding: 100px 150px 200px 50px;
+  padding: 80px 200px 100px 200px;
   background: #fafafa;
 }
 
@@ -346,6 +346,7 @@ img[src="./assests/image3.jpg"] {
 
 .card {
   width: 300px;
+  height: 210px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -356,7 +357,7 @@ img[src="./assests/image3.jpg"] {
 }
 
 .feedback {
-  padding: 100px 200px 200px 80px;
+  padding: 50px 200px 100px 80px;
 }
 .feedbackPara {
   font: normal normal normal 20px Poppins;
